@@ -1,0 +1,69 @@
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de extensiones C
+*.so
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de registro y bases de datos
+*.log
+*.sqlite3
+
+# Archivos de pruebas y cobertura
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Archivos de documentación
+docs/_build/
+
+# Archivos de traducción
+*.mo
+*.pot
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de configuración de IPython
+profile_default/
+ipython_config.py
+
+# Archivos de Scrapy
+.scrapy/
+
+# Archivos de PyBuilder
+target/
+.pybuilder/
+
+# Archivos de Flask
+instance/
+.webassets-cache
+
+# Archivos de Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
