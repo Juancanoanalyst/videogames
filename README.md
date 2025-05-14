@@ -87,6 +87,7 @@ Se explora la correlación entre calificaciones de usuarios y críticos vs. vent
 
 ---
 - Influencia del ESRB.
+
 ![Impacto del ESRB NA](imagenes_proyecto/imagen_pna.png)
 ![Impacto del ESRB EU](imagenes_proyecto/imagen_peu.png)
 ![Impacto del ESRB JP](imagenes_proyecto/imagen_pjp.png)
