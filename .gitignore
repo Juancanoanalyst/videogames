@@ -40,6 +40,8 @@ coverage.xml
 
 # Archivos de documentación
 docs/_build/
+*.png:Zone.Identifier
+
 
 # Archivos de traducción
 *.mo
@@ -67,3 +69,4 @@ instance/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+.gitignore
