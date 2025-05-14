@@ -71,24 +71,26 @@ Se explora la correlación entre calificaciones de usuarios y críticos vs. vent
 ## 🎯 Análisis por Región
 
 ### América del Norte, Europa y Japón
-
+---
 - Top 5 plataformas y géneros.
-- Preferencias por región.
-- Influencia del ESRB.
+
 
 ![Top Plataformas NA](imagenes_proyecto/imagen_8.png)  
 ![Top Plataformas EU](imagenes_proyecto/imagen_9.png)  
 ![Top Plataformas JP](imagenes_proyecto/imagen_10.png)  
+---
+- Preferencias por región.
+
 ![Géneros por Región NA](imagenes_proyecto/imagen_gna.png)
 ![Géneros por Región EU](imagenes_proyecto/imagen_geu.png)
 ![Géneros por Región JP](imagenes_proyecto/imagen_gjp.png)
 
+---
+- Influencia del ESRB.
 ![Impacto del ESRB NA](imagenes_proyecto/imagen_pna.png)
 ![Impacto del ESRB EU](imagenes_proyecto/imagen_peu.png)
 ![Impacto del ESRB JP](imagenes_proyecto/imagen_pjp.png)
 
-
----
 
 ## 🧪 Pruebas de Hipótesis
 
