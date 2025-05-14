@@ -81,7 +81,7 @@ Se explora la correlación entre calificaciones de usuarios y críticos vs. vent
 ![Top Plataformas JP](imagenes_proyecto/imagen_10.png)  
 ![Géneros por Región NA](imagenes_proyecto/imagen_gna.png)
 ![Géneros por Región EU](imagenes_proyecto/imagen_geu.png)
-![Géneros por Región JP](imagenes_proyecto/imagen_jp.png)
+![Géneros por Región JP](imagenes_proyecto/imagen_gjp.png)
 
 ![Impacto del ESRB NA](imagenes_proyecto/imagen_pna.png)
 ![Impacto del ESRB EU](imagenes_proyecto/imagen_peu.png)
