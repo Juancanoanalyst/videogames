@@ -88,8 +88,8 @@ Se explora la correlación entre calificaciones de usuarios y críticos vs. vent
 
 Se probaron las siguientes hipótesis:
 
-1. Las calificaciones promedio de usuarios para Xbox One y PC son iguales.
-2. Las calificaciones promedio de usuarios para los géneros Acción y Deportes son diferentes.
+1. Las calificaciones promedio de usuarios para Xbox One y PC son diferentes.
+2. Las calificaciones promedio de usuarios para los géneros Acción y Deportes son iguales.
 
 Método: Prueba t de Student con un nivel de significancia `α = 0.05`.
 
