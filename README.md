@@ -32,7 +32,7 @@ Trabajas como analista de datos para **Ice**, una tienda online que vende videoj
 
 - Conversión de tipos de datos (por ejemplo, fechas y calificaciones).
 - Limpieza de valores nulos y valores "TBD".
-- Cálculo de ventas totales por juego (`total_sales`).
+- Cálculo de ventas totales por consola (`total_sales`).
 
 📊 Resultado:
 
