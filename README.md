@@ -67,7 +67,11 @@ Identificamos las plataformas con mayores ventas totales, observando su ciclo de
 
 ### Diagrama de Caja de Ventas Globales
 
-![Boxplot por Plataforma](imagenes_proyecto/imagen_5.png)
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_5.png" alt="Boxplot por Plataforma" width="75%" >
+</p>
+
 
 ---
 
@@ -133,10 +137,22 @@ Se probaron las siguientes hipótesis:
 
 Método: Prueba t de Student con un nivel de significancia `α = 0.05`.
 
-![Prueba Xbox-PC](imagenes_proyecto/imagen_13.png)  
-![Prueba Acción-Deportes](imagenes_proyecto/imagen_14.png)
+<p align="center">
+  <img src="imagenes_proyecto/imagen_13.png" alt="Prueba Xbox-PC" width="45%" />
+  <img src="imagenes_proyecto/imagen_14.png" alt="Prueba Acción-Deportes" width="45%" />
+</p>
 
 ---
+
+## 🛠 Tecnologías Usadas
+
+- Python (Pandas, Matplotlib, Seaborn, SciPy)
+- Jupyter Notebook
+- Git y GitHub
+- Estadística inferencial (prueba de hipótesis)
+
+---
+
 
 ## 📌 Conclusiones
 
@@ -150,12 +166,7 @@ Método: Prueba t de Student con un nivel de significancia `α = 0.05`.
 
 ---
 
-## 🛠 Tecnologías Usadas
 
-- Python (Pandas, Matplotlib, Seaborn, SciPy)
-- Jupyter Notebook
-- Git y GitHub
-- Estadística inferencial (prueba de hipótesis)
 
 
 
