@@ -50,8 +50,12 @@ Se visualiza la cantidad de juegos publicados por año para determinar qué peri
 ### Plataformas más Populares
 Identificamos las plataformas con mayores ventas totales, observando su ciclo de vida.
 
-![Top Plataformas](imagenes_proyecto/imagen_3.png)  
-![Ventas por Plataforma en el Tiempo](imagenes_proyecto/imagen_4.png)
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_3/.png" alt="Top Plataformas" width="45%" />
+  <img src="imagenes_proyecto/imagen_4.png" alt="Ventas por Plataforma en el Tiempo" width="45%" />
+</p>
+
 
 ### Diagrama de Caja de Ventas Globales
 
@@ -63,8 +67,11 @@ Identificamos las plataformas con mayores ventas totales, observando su ciclo de
 
 Se explora la correlación entre calificaciones de usuarios y críticos vs. ventas, usando como ejemplo **PS4**.
 
-![Correlación PS4 User](imagenes_proyecto/imagen_6.png)  
-![Correlación PS4 Críticos](imagenes_proyecto/imagen_7.png)
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_6/.png" alt="Correlación PS4 User" width="45%" />
+  <img src="imagenes_proyecto/imagen_7.png" alt="Correlación PS4 Críticos" width="45%" />
+</p>
 
 ---
 
@@ -109,10 +116,13 @@ Método: Prueba t de Student con un nivel de significancia `α = 0.05`.
 
 ## 📌 Conclusiones
 
-- Las plataformas con mayores ventas históricas fueron **PS4, Xbox One y 3DS**.
-- **PS4 y Xbox One** mostraron buen desempeño en reseñas, pero los géneros **Shooter** y **Sports** fueron más volátiles.
-- Las preferencias regionales varían significativamente, siendo Japón más orientado al mercado portátil (Nintendo) y con menor influencia de ESRB.
-- Las hipótesis estadísticas permitieron validar diferencias clave en las calificaciones y preferencias.
+- El informe recomienda mantener un buen stock de juegos de PS4 y Xbox One por su tendencia actual y vida útil estimada. Se sugiere monitorear las tendencias de plataformas cada década, aprender de la pérdida de liderazgo de Nintendo en los 2000.
+
+- También destaca la importancia de la crítica de expertos, el marketing con influencers y la atención a los juegos en  Esports. Franquicias como Call of Duty y GTA siguen siendo relevantes, al igual que el género shooter gracias al juego online.
+
+- El análisis regional revela preferencias similares entre Europa y Norteamérica por acción y deportes (con Xbox más fuerte en NA y PlayStation en Europa), mientras que Japón prefiere juegos de Nintendo y RPGs.
+
+- Finalmente, el informe enfatiza la necesidad de completar la información sobre el público objetivo de los juegos para mejorar la precisión del análisis.
 
 ---
 
@@ -123,7 +133,5 @@ Método: Prueba t de Student con un nivel de significancia `α = 0.05`.
 - Git y GitHub
 - Estadística inferencial (prueba de hipótesis)
 
----
 
-## 📂 Estructura del Proyecto
 
