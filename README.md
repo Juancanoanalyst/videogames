@@ -36,7 +36,11 @@ Trabajas como analista de datos para **Ice**, una tienda online que vende videoj
 
 📊 Resultado:
 
-![Distribución por Año](imagenes_proyecto/imagen_1.png)
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_1.png" alt="Distribución por Año" width="75%" >
+</p>
+
 
 ---
 
@@ -45,14 +49,18 @@ Trabajas como analista de datos para **Ice**, una tienda online que vende videoj
 ### Juegos por Año
 Se visualiza la cantidad de juegos publicados por año para determinar qué periodos son significativos.
 
-![Juegos por Año](imagenes_proyecto/imagen_2.png)
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_2.png" alt="Juegos por Año" width="75%" >
+</p>
+
 
 ### Plataformas más Populares
 Identificamos las plataformas con mayores ventas totales, observando su ciclo de vida.
 
 
 <p align="center">
-  <img src="imagenes_proyecto/imagen_3/.png" alt="Top Plataformas" width="45%" />
+  <img src="imagenes_proyecto/imagen_3.png" alt="Top Plataformas" width="45%" />
   <img src="imagenes_proyecto/imagen_4.png" alt="Ventas por Plataforma en el Tiempo" width="45%" />
 </p>
 
@@ -69,7 +77,7 @@ Se explora la correlación entre calificaciones de usuarios y críticos vs. vent
 
 
 <p align="center">
-  <img src="imagenes_proyecto/imagen_6/.png" alt="Correlación PS4 User" width="45%" />
+  <img src="imagenes_proyecto/imagen_6.png" alt="Correlación PS4 User" width="45%" />
   <img src="imagenes_proyecto/imagen_7.png" alt="Correlación PS4 Críticos" width="45%" />
 </p>
 
