@@ -60,7 +60,7 @@ Identificamos las plataformas con mayores ventas totales, observando su ciclo de
 
 
 <p align="center">
-  <img src="imagenes_proyecto/imagen_3.png" alt="Top Plataformas" width="45%" />
+  <img src="imagenes_proyecto/imagen_3.png" alt="Top Plataformas" width="47%" />
   <img src="imagenes_proyecto/imagen_4.png" alt="Ventas por Plataforma en el Tiempo" width="45%" />
 </p>
 
@@ -78,7 +78,7 @@ Se explora la correlación entre calificaciones de usuarios y críticos vs. vent
 
 <p align="center">
   <img src="imagenes_proyecto/imagen_6.png" alt="Correlación PS4 User" width="45%" />
-  <img src="imagenes_proyecto/imagen_7.png" alt="Correlación PS4 Críticos" width="45%" />
+  <img src="imagenes_proyecto/imagen_7.png" alt="Correlación PS4 Críticos" width="46%" />
 </p>
 
 ---
@@ -90,22 +90,38 @@ Se explora la correlación entre calificaciones de usuarios y críticos vs. vent
 - Top 5 plataformas y géneros.
 
 
-![Top Plataformas NA](imagenes_proyecto/imagen_8.png)  
-![Top Plataformas EU](imagenes_proyecto/imagen_9.png)  
-![Top Plataformas JP](imagenes_proyecto/imagen_10.png)  
+<p align="center">
+  <img src="imagenes_proyecto/imagen_8.png" alt="Top Plataformas NA" width="30%" />
+  <img src="imagenes_proyecto/imagen_9.png" alt="Top Plataformas EU" width="30%" />
+  <img src="imagenes_proyecto/imagen_10.png" alt="Top Plataformas JP" width="30%" />
+</p>
+
+
+
 ---
 - Preferencias por región.
 
-![Géneros por Región NA](imagenes_proyecto/imagen_gna.png)
-![Géneros por Región EU](imagenes_proyecto/imagen_geu.png)
-![Géneros por Región JP](imagenes_proyecto/imagen_gjp.png)
+
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_gna.png" alt="Géneros por Región NA" width="30%" />
+  <img src="imagenes_proyecto/imagen_geu.png" alt="Géneros por Región EU" width="30%" />
+  <img src="imagenes_proyecto/imagen_gjp.png" alt="Géneros por Región JP" width="30%" />
+</p>
+
+
 
 ---
 - Influencia del ESRB.
 
-![Impacto del ESRB NA](imagenes_proyecto/imagen_pna.png)
-![Impacto del ESRB EU](imagenes_proyecto/imagen_peu.png)
-![Impacto del ESRB JP](imagenes_proyecto/imagen_pjp.png)
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_pna.png" alt="Impacto del ESRB NA" width="30%" />
+  <img src="imagenes_proyecto/imagen_peu.png" alt="Impacto del ESRB EU" width="30%" />
+  <img src="imagenes_proyecto/imagen_pjp.png" alt="Impacto del ESRB JP" width="30%" />
+</p>
+
+
 
 
 ## 🧪 Pruebas de Hipótesis
