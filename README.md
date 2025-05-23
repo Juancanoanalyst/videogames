@@ -2,7 +2,11 @@
 
 ## 📌 Descripción del Proyecto
 
-Trabajas como analista de datos para **Ice**, una tienda online que vende videojuegos en todo el mundo. Contamos con datos históricos hasta 2016, incluyendo reseñas de usuarios y críticos, géneros, plataformas y ventas por región. El objetivo es **identificar patrones que determinen si un videojuego será exitoso**, para así planificar campañas publicitarias efectivas para el año siguiente (2017).
+Contexto:
+Ice es una tienda online que vende videojuegos a nivel mundial. La empresa busca comprender qué factores influyen en el éxito de un videojuego, con el fin de optimizar sus campañas publicitarias y estrategias de ventas.
+
+Objetivo del análisis:
+Identificar patrones en los datos históricos de videojuegos —incluyendo reseñas de usuarios y críticos, géneros, plataformas y ventas por región— que permitan predecir si un videojuego será exitoso.
 
 ## 🧠 Objetivo
 
