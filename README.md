@@ -1,172 +1,151 @@
-# 🎮 Análisis de Ventas de Videojuegos para la Tienda Ice
+# 🎮 Video Game Sales Analysis for the Ice Store
 
-## 📌 Descripción del Proyecto
+## 📌 Project Description
 
-Contexto:
-Ice es una tienda online que vende videojuegos a nivel mundial. La empresa busca comprender qué factores influyen en el éxito de un videojuego, con el fin de optimizar sus campañas publicitarias y estrategias de ventas.
+**Context:**
+Ice is an online store that sells video games globally. The company aims to understand which factors influence the success of a video game to optimize its advertising campaigns and sales strategies.
 
-Objetivo del análisis:
-Identificar patrones en los datos históricos de videojuegos —incluyendo reseñas de usuarios y críticos, géneros, plataformas y ventas por región— que permitan predecir si un videojuego será exitoso.
+**Analysis Objective:**
+To identify patterns in historical video game data—including user and critic reviews, genres, platforms, and sales by region—that allow predicting whether a video game will be successful.
 
-## 🧠 Objetivo
+## 🧠 Objective
 
-- Analizar los datos de ventas y reseñas.
-- Determinar qué plataformas y géneros son más rentables.
-- Evaluar el impacto de las reseñas y calificaciones ESRB en las ventas.
-- Formular y comprobar hipótesis estadísticas.
+- Analyze sales and review data.
+- Determine which platforms and genres are most profitable.
+- Evaluate the impact of reviews and ESRB ratings on sales.
+- Formulate and test statistical hypotheses.
 
 ---
 
 ## 📁 Dataset
 
-- Fuente: `/datasets/games.csv`
-- Columnas principales:
-  - `name`: Nombre del videojuego
-  - `platform`: Plataforma (Xbox, PS, etc.)
-  - `year_of_release`: Año de lanzamiento
-  - `genre`: Género
-  - `na_sales`, `eu_sales`, `jp_sales`, `other_sales`: Ventas por región (en millones USD)
-  - `critic_score`: Calificación de críticos (0-100)
-  - `user_score`: Calificación de usuarios (0-10)
-  - `rating`: Clasificación ESRB
+- Source: `/datasets/games.csv`
+- Main Columns:
+  - `name`: Video game name
+  - `platform`: Platform (Xbox, PS, etc.)
+  - `year_of_release`: Release year
+  - `genre`: Genre
+  - `na_sales`, `eu_sales`, `jp_sales`, `other_sales`: Sales by region (in million USD)
+  - `critic_score`: Critic score (0-100)
+  - `user_score`: User score (0-10)
+  - `rating`: ESRB rating
 
 ---
 
-## 🧹 Preparación de los Datos
+## 🧹 Data Preparation
 
-- Conversión de tipos de datos (por ejemplo, fechas y calificaciones).
-- Limpieza de valores nulos y valores "TBD".
-- Cálculo de ventas totales por consola (`total_sales`).
+- Conversion of data types (e.g., dates and ratings).
+- Cleaning of missing values and "TBD" values.
+- Calculation of total sales per console (`total_sales`).
 
-📊 Resultado:
-
-
-<p align="center">
-  <img src="imagenes_proyecto/imagen_1.png" alt="Distribución por Año" width="75%" >
-</p>
-
-
----
-
-## 📊 Análisis Exploratorio
-
-### Juegos por Año
-Se visualiza la cantidad de juegos publicados por año para determinar qué periodos son significativos.
-
+📊 Result:
 
 <p align="center">
-  <img src="imagenes_proyecto/imagen_2.png" alt="Juegos por Año" width="75%" >
-</p>
-
-
-### Plataformas más Populares
-Identificamos las plataformas con mayores ventas totales, observando su ciclo de vida.
-
-
-<p align="center">
-  <img src="imagenes_proyecto/imagen_3.png" alt="Top Plataformas" width="47%" />
-  <img src="imagenes_proyecto/imagen_4.png" alt="Ventas por Plataforma en el Tiempo" width="45%" />
-</p>
-
-
-### Diagrama de Caja de Ventas Globales
-
-
-<p align="center">
-  <img src="imagenes_proyecto/imagen_5.png" alt="Boxplot por Plataforma" width="75%" >
-</p>
-
-
----
-
-## 💬 Análisis de Reseñas
-
-Se explora la correlación entre calificaciones de usuarios y críticos vs. ventas, usando como ejemplo **PS4**.
-
-
-<p align="center">
-  <img src="imagenes_proyecto/imagen_6.png" alt="Correlación PS4 User" width="45%" />
-  <img src="imagenes_proyecto/imagen_7.png" alt="Correlación PS4 Críticos" width="46%" />
+  <img src="imagenes_proyecto/imagen_1.png" alt="Distribution by Year" width="75%" >
 </p>
 
 ---
 
-## 🎯 Análisis por Región
+## 📊 Exploratory Data Analysis
 
-### América del Norte, Europa y Japón
----
-- Top 5 plataformas y géneros.
-
+### Games by Year
+Visualizing the number of games released per year to determine significant periods.
 
 <p align="center">
-  <img src="imagenes_proyecto/imagen_8.png" alt="Top Plataformas NA" width="30%" />
-  <img src="imagenes_proyecto/imagen_9.png" alt="Top Plataformas EU" width="30%" />
-  <img src="imagenes_proyecto/imagen_10.png" alt="Top Plataformas JP" width="30%" />
+  <img src="imagenes_proyecto/imagen_2.png" alt="Games by Year" width="75%" >
 </p>
 
-
-
----
-- Preferencias por región.
-
-
+### Most Popular Platforms
+Identifying platforms with the highest total sales, observing their life cycle.
 
 <p align="center">
-  <img src="imagenes_proyecto/imagen_gna.png" alt="Géneros por Región NA" width="30%" />
-  <img src="imagenes_proyecto/imagen_geu.png" alt="Géneros por Región EU" width="30%" />
-  <img src="imagenes_proyecto/imagen_gjp.png" alt="Géneros por Región JP" width="30%" />
+  <img src="imagenes_proyecto/imagen_3.png" alt="Top Platforms" width="47%" />
+  <img src="imagenes_proyecto/imagen_4.png" alt="Platform Sales Over Time" width="45%" />
 </p>
 
-
-
----
-- Influencia del ESRB.
-
+### Global Sales Boxplot
 
 <p align="center">
-  <img src="imagenes_proyecto/imagen_pna.png" alt="Impacto del ESRB NA" width="30%" />
-  <img src="imagenes_proyecto/imagen_peu.png" alt="Impacto del ESRB EU" width="30%" />
-  <img src="imagenes_proyecto/imagen_pjp.png" alt="Impacto del ESRB JP" width="30%" />
-</p>
-
-
-
-
-## 🧪 Pruebas de Hipótesis
-
-Se probaron las siguientes hipótesis:
-
-1. Las calificaciones promedio de usuarios para Xbox One y PC son diferentes.
-2. Las calificaciones promedio de usuarios para los géneros Acción y Deportes son iguales.
-
-Método: Prueba t de Student con un nivel de significancia `α = 0.05`.
-
-<p align="center">
-  <img src="imagenes_proyecto/imagen_13.png" alt="Prueba Xbox-PC" width="45%" />
-  <img src="imagenes_proyecto/imagen_14.png" alt="Prueba Acción-Deportes" width="45%" />
+  <img src="imagenes_proyecto/imagen_5.png" alt="Boxplot by Platform" width="75%" >
 </p>
 
 ---
 
-## 🛠 Tecnologías Usadas
+## 💬 Review Analysis
+
+Exploring the correlation between user and critic scores vs. sales, using **PS4** as an example.
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_6.png" alt="PS4 User Correlation" width="45%" />
+  <img src="imagenes_proyecto/imagen_7.png" alt="PS4 Critic Correlation" width="46%" />
+</p>
+
+---
+
+## 🎯 Analysis by Region
+
+### North America, Europe, and Japan
+---
+- Top 5 platforms and genres.
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_8.png" alt="Top Platforms NA" width="30%" />
+  <img src="imagenes_proyecto/imagen_9.png" alt="Top Platforms EU" width="30%" />
+  <img src="imagenes_proyecto/imagen_10.png" alt="Top Platforms JP" width="30%" />
+</p>
+
+---
+- Preferences by region.
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_gna.png" alt="Genres by Region NA" width="30%" />
+  <img src="imagenes_proyecto/imagen_geu.png" alt="Genres by Region EU" width="30%" />
+  <img src="imagenes_proyecto/imagen_gjp.png" alt="Genres by Region JP" width="30%" />
+</p>
+
+---
+- Influence of ESRB.
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_pna.png" alt="ESRB Impact NA" width="30%" />
+  <img src="imagenes_proyecto/imagen_peu.png" alt="ESRB Impact EU" width="30%" />
+  <img src="imagenes_proyecto/imagen_pjp.png" alt="ESRB Impact JP" width="30%" />
+</p>
+
+## 🧪 Hypothesis Testing
+
+The following hypotheses were tested:
+
+1.  Average user ratings for Xbox One and PC are different.
+2.  Average user ratings for the Action and Sports genres are the same.
+
+Method: Student's t-test with a significance level of `α = 0.05`.
+
+<p align="center">
+  <img src="imagenes_proyecto/imagen_13.png" alt="Xbox-PC Test" width="45%" />
+  <img src="imagenes_proyecto/imagen_14.png" alt="Action-Sports Test" width="45%" />
+</p>
+
+---
+
+## 🛠 Used Technologies
 
 - Python (Pandas, Matplotlib, Seaborn, SciPy)
 - Jupyter Notebook
-- Git y GitHub
-- Estadística inferencial (prueba de hipótesis)
+- Git and GitHub
+- Inferential Statistics (hypothesis testing)
 
 ---
 
+## 📌 Conclusions
 
-## 📌 Conclusiones
+- The report recommends maintaining a good stock of PS4 and Xbox One games due to their current trend and estimated lifespan. It suggests monitoring platform trends every decade, learning from Nintendo's loss of leadership in the 2000s.
 
-- El informe recomienda mantener un buen stock de juegos de PS4 y Xbox One por su tendencia actual y vida útil estimada. Se sugiere monitorear las tendencias de plataformas cada década, aprender de la pérdida de liderazgo de Nintendo en los 2000.
+- It also highlights the importance of expert reviews, influencer marketing, and attention to games in Esports. Franchises like Call of Duty and GTA remain relevant, as does the shooter genre thanks to online gaming.
 
-- También destaca la importancia de la crítica de expertos, el marketing con influencers y la atención a los juegos en  Esports. Franquicias como Call of Duty y GTA siguen siendo relevantes, al igual que el género shooter gracias al juego online.
+- Regional analysis reveals similar preferences between Europe and North America for action and sports (with Xbox stronger in NA and PlayStation in Europe), while Japan prefers Nintendo games and RPGs.
 
-- El análisis regional revela preferencias similares entre Europa y Norteamérica por acción y deportes (con Xbox más fuerte en NA y PlayStation en Europa), mientras que Japón prefiere juegos de Nintendo y RPGs.
-
-- Finalmente, el informe enfatiza la necesidad de completar la información sobre el público objetivo de los juegos para mejorar la precisión del análisis.
+- Finally, the report emphasizes the need to complete information about the target audience of the games to improve the accuracy of the analysis.
 
 ---
 
